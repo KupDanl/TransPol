@@ -1,0 +1,67 @@
+#midle {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#block_content {
+    display:block;
+    height:100px;/*тут значение в 100 пикселей можно поставить другое*/
+}
+
+#first {
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFFFF0;
+}
+
+#block_3 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 640px) {
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+    div {
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 767px) {   
+    body {        
+        background-image: url(images/small_backgroundPicture.jpg);   
+    } 
+}
+
+li {
+    list-style-type: none; 
+}
+
+body {   
+    background-image: url(../images/background_picture.jpg);      
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;      
+    background-color: #464646; 
+    color: white;
+}
+
+
+
+
+
